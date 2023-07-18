@@ -17,8 +17,6 @@ function generateSecretNumber() {
       secret += digit;
     }
   }
-console.log(secret);
-  return secret;
 }
 
 function getBullsAndCows(guess, secret) {
